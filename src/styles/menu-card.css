@@ -1,0 +1,39 @@
+.menu-card-wrapper{
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding-top: 10px;
+    width: 200px;
+    height: 100vh;
+    background: white;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+    top: 0;
+    right: -300px;
+    bottom: 0;
+    z-index: 2;
+    opacity: 0;
+    visibility: hidden;
+    transition: all .3s ease;
+}
+.shadow{
+    width: 100%;
+    height: 100vh;
+    background: black;
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    visibility: hidden;
+    transition: all .3s ease;
+}
+.show-wrapper{
+    opacity: 1;
+    visibility: visible;
+    right: 0;
+}
+.show{
+    visibility: visible;
+    opacity: .2;
+}

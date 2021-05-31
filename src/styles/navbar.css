@@ -1,0 +1,37 @@
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    height: 60px;
+    background: rgb(255, 255, 253);
+    box-shadow: 0px 0px 15px 0px rgba(255, 0, 0, .1);
+}
+.navbar h1{
+    margin: 0;
+}
+.cart-link{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.links{
+    display: flex;
+    flex-direction: row;
+    margin-right: 10px;
+}
+.column{
+    flex-direction: column;
+}
+.links a{
+    text-decoration: none;
+    color: black;
+    transition: all .3s ease;
+    font-weight: bold;
+    font-size: 1em;
+    margin: 5px;
+}
+.links a:hover{
+    color: gray;
+}

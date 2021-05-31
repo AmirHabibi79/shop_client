@@ -1,0 +1,12 @@
+.menu{
+    margin-left: 10px;
+}
+.menu-btn button{
+    background: none;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1.5em;
+    
+}
